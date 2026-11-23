@@ -1,0 +1,139 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+  height: 100%;
+  width: 100%;
+}
+
+
+#main #page1{
+  height: 100%;
+  width: 100%;
+ background-color: #FEF4EA;
+}
+
+#page1 #nav{
+  height: 100px;
+  width: 100%;
+  background-color: #ff7a7a;
+  display: flex;
+  /* justify-content:space-around; */
+}
+#navleft{
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  background-color:yellowgreen;
+  padding-left: 5%;
+}
+#navleft svg{
+  height: 50px;
+  width: 50px;
+}
+#navright{
+  height: 100%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  /* background-color: #200b0b; */
+}
+#navright svg{
+  height: 50px;
+  width: 50px;
+}
+#navright #pages{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+#page1 #container{
+    height: 95%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    
+}
+    #container #containerLeft{
+    height: 100%;
+    width: 50%;
+    background-color: aquamarine;
+}
+
+#container #containerRight{
+    height: 100%;
+    width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: aquamarine;
+}
+
+#containerRight img{
+    height: 75%;
+    width: 65%;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 60px;
+}
+
+#containerRight #box{
+    height: 200px;
+    width: 70px;
+    background-color: white;
+    margin-top: 39%;
+    display: flex;
+    flex-direction: column;
+
+}
+#box .circle{
+   height: 100%;
+   width: 100%;
+   border-radius: 50%;
+   background-color: black;
+}
+
+#box .circle:nth-child(1){
+    background-color: red;
+}
+
+#main #page2{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(136, 255, 0);
+}
+#page2Right{
+  height: 150%;
+  width: 150%;
+  padding: top 150px;
+  background-color: aqua;
+
+}
+#page2Right #boxcontainer{
+  height: 150%;
+  width: 150%;
+}
+#boxcontainer.box                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+
+#main #page3{
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}
+
+#main #page4{
+  height: 100%;
+  width: 100%;
+  background-color: orange;
+}
